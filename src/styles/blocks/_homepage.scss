@@ -1,0 +1,40 @@
+.homepage {
+  height: 100vh;
+  background-image: url(../images/fs-main-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homepage-fade {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.60);
+}
+
+.homepage-container {
+  @include container;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // height: 100vh;
+}
+
+.homepage-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homepage-title {
+  color: $color-light;
+}
+
+.homepage-subtitle {
+  color: $color-light;
+}
+
+.homepage-btn {
+  color: $color-light;
+}
