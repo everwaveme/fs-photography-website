@@ -1,0 +1,37 @@
+.selected-works-cover {
+  @include cover();
+  background-image: url("../images/sw-cover4.jpg");
+}
+
+.selected-works-container {
+  @include container();
+}
+
+.selected-works-title {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.selected-works-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 85px;
+  margin-left: -15px;
+  margin-right: -15px;
+  // border: 1px solid aqua;
+}
+
+.selected-works-item {
+  flex-basis: 33.33%;
+  padding: 15px;
+}
+
+.selected-works-img {
+  margin: 0 auto;
+  max-height: 400px;
+  object-fit: contain;
+}

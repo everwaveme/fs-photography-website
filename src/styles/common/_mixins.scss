@@ -4,3 +4,11 @@
   padding: 0 $gap-half;
   // border: 1px solid red;
 }
+
+@mixin cover() {
+  padding: 250px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
