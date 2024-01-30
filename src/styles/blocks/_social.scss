@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  list-style: none;
+}
+
+.social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

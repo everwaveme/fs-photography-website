@@ -1,0 +1,25 @@
+.footer {
+  margin-top: auto;
+  padding: 30px 0;
+}
+
+.footer-container {
+  @include container();
+  // border: 1px solid red;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.footer-copyright {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  color: $color-dark;
+  // text-align: center;
+}
+
