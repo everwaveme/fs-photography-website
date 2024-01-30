@@ -1,6 +1,7 @@
 .about-cover {
   @include cover();
   background-image: url("../images/about-cover.jpg");
+  background-position: bottom;
 }
 
 .about-container {

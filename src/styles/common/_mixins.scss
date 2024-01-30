@@ -6,9 +6,10 @@
 }
 
 @mixin cover() {
-  padding: 250px 0;
+  padding: 300px 0; // было 250px до фиксации шапки
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
