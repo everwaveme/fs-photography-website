@@ -1,11 +1,10 @@
 .footer {
   margin-top: auto;
-  padding: 30px 0;
+  padding: 35px 0;
 }
 
 .footer-container {
   @include container();
-  // border: 1px solid red;
 }
 
 .footer-wrap {
@@ -16,7 +15,7 @@
 }
 
 .footer-copyright {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   font-size: 20px;
   font-weight: 400;
   color: $color-dark;

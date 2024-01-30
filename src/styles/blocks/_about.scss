@@ -1,0 +1,66 @@
+.about-cover {
+  @include cover();
+  background-image: url("../images/about-cover.jpg");
+}
+
+.about-container {
+  @include container();
+}
+
+.about-title {
+  margin: 80px 0;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  // border: 1px solid aqua;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+  // border: 1px solid aqua;
+}
+
+.about-info {
+ flex-basis: 65%;
+}
+
+.about-text {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-list {
+  margin-bottom: 18px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  // list-style: none;
+}
+
+.list-item {
+
+}
+
+.about-link {
+  color: $color-accent;
+  text-decoration: none;
+  transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+    &:hover {
+      color: rgb($color-accent, .7);
+    }
+}
+
+.about-avatar {
+  flex-basis: 30%;
+}
+
+.about-pic {
+  // margin-left: 30px;
+  // max-height: 400px;
+}
