@@ -1,0 +1,42 @@
+.better-days-cover {
+  @include cover();
+  background-image: url("../images/bd-cover.jpg");
+  background-position: bottom;
+}
+
+.better-days-container {
+  @include container();
+}
+
+.better-days-title {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.better-days-desc {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.better-days-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 65px -15px 100px -15px;
+}
+
+.better-days-item {
+  flex-basis: 33.33%;
+  padding: 15px;
+}
+
+.better-days-img {
+  margin: 0 auto;
+  max-height: 400px;
+  object-fit: contain;
+}
