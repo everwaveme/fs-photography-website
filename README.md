@@ -6,7 +6,7 @@ Participant of numerous exhibitions in Russia and abroad.
 
 <img src="/fs-home-page.png" alt="project photo" width="100%"/>
 
-<img src="/fs-selected-works-page.png" alt="project photo" width="100%"/>
+<img src="/fs-better-days-page.png" alt="project photo" width="100%"/>
 
 ## Contributing
 
