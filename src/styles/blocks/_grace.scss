@@ -1,0 +1,42 @@
+.grace-cover {
+  @include cover();
+  background-image: url("../images/gr-cover.jpg");
+  background-position: bottom;
+}
+
+.grace-container {
+  @include container();
+}
+
+.grace-title {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grace-desc {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.grace-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 65px -15px 100px -15px;
+}
+
+.grace-item {
+  flex-basis: 33.33%;
+  padding: 15px;
+}
+
+.grace-img {
+  margin: 0 auto;
+  max-height: 400px;
+  object-fit: contain;
+}
