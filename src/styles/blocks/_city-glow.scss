@@ -1,20 +1,20 @@
-.metamorphoses-cover {
+.city-glow-cover {
   @include cover();
-  background-image: url("../images/meta-cover.jpg");
+  background-image: url("../images/cg-cover.jpg");
 }
 
-.metamorphoses-container {
+.city-glow-container {
   @include container();
 }
 
-.metamorphoses-title {
+.city-glow-title {
   margin-top: 80px;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
 
-.metamorphoses-desc {
+.city-glow-desc {
   margin-top: 30px;
   font-size: 18px;
   font-weight: 300;
@@ -22,19 +22,19 @@
   text-align: center;
 }
 
-.metamorphoses-gallery {
+.city-glow-gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 65px -15px 100px -15px;
 }
 
-.metamorphoses-item {
+.city-glow-item {
   flex-basis: 33.33%;
   padding: 15px;
 }
 
-.metamorphoses-img {
+.city-glow-img {
   margin: 0 auto;
   max-height: 400px;
   object-fit: contain;
