@@ -26,7 +26,7 @@
 .exhibitions-link {
   color: $color-accent;
   text-decoration: none;
-  transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
     &:hover {
       color: rgb($color-accent, .7);

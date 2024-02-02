@@ -1,6 +1,7 @@
 .selected-works-cover {
   @include cover();
   background-image: url("../images/sw-cover.jpg");
+  background-position: bottom;
 }
 
 .selected-works-container {

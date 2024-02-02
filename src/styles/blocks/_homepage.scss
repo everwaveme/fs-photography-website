@@ -8,7 +8,7 @@
 
 .homepage-fade {
   height: 100vh;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(0, 0, 0, .7);
 }
 
 .homepage-container {
@@ -24,20 +24,20 @@
 }
 
 .homepage-title {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 68px;
   font-weight: 700;
   text-align: center;
-  color: #fff;
+  color: $color-light;
 }
 
 .homepage-subtitle {
   margin-bottom: 50px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.6em;
   text-align: center;
-  color: #fff;
+  color: $color-light;
 }
 
 .homepage-btn {
@@ -48,14 +48,14 @@
   letter-spacing: .1em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
-  border: 2px solid #fff;
+  color: $color-light;
+  border: 2px solid $color-light;
   border-radius: 3px;
   cursor: pointer;
   transition: all 0.3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
   &:hover {
-    background-color: #fff;
+    background-color: $color-light;
     color: $color-dark;
   }
 }

@@ -1,22 +1,79 @@
-.nav {
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
 
-  ul {
-    display: flex;
-    list-style: none;
+.nav-menu-item {
+  position: relative;
+  margin-left: 35px;
+  padding: 7px 0;
+
+  &:hover .nav-submenu {
+    display: block;
   }
+}
 
-  li {
-    margin-left: 35px;
+.nav-menu-link {
+  font-size: 20px;
+  color: $color-dark;
+  text-decoration: none;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  &:hover {
+    color: $color-accent;
   }
+}
 
-  a {
-    font-size: 20px;
-    color: $color-dark;
-    text-decoration: none;
-    transition: all .2s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+.nav-submenu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: -17px;
+  min-width: 200px;
+  padding: 5px 25px;
+  background-color: $color-light;
+  box-shadow: 0 0 3px rgba($color-dark, .3);
+  border-radius: 3px;
+  list-style: none;
+  animation: submenu .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
-    &:hover {
-      color: $color-accent;
+  @keyframes submenu {
+    from{
+      opacity: 0;
+      transform: translate(0, 15px);
     }
+
+    to{
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+.nav-submenu-item {
+  margin: 20px 0;
+  animation: submenu-item .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  @keyframes submenu-item {
+    from{
+      opacity: 0;
+      transform: translate(0, 15px);
+    }
+
+    to{
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+.nav-submenu-link {
+  font-size: 18px;
+  color: $color-dark;
+  text-decoration: none;
+  transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  &:hover {
+    color: $color-accent;
   }
 }
