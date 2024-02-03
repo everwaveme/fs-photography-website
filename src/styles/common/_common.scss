@@ -9,6 +9,12 @@ body {
  font-family: $font;
  color: $color-dark;
  background-color: $color-light;
+
+ &.lock {
+  @media (max-width: $tablet-max) {
+    overflow: hidden;
+  }
+ } // убираем скроллинг страницы при открытии меню в таблетках и мобилках
 }
 
 img {

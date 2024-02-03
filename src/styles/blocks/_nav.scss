@@ -1,6 +1,51 @@
+.nav {
+  // @media (min-width: $desktop) {
+  //   display: block !important;
+  // }
+
+  @media (max-width: $tablet-max) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    padding: 30px 0;
+    background-color: $color-light;
+    background: rgba($color-light, .9);
+    overflow: auto;
+    animation: dropdownMenu .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+    @keyframes dropdownMenu {
+      from{
+        opacity: 0;
+        transform: translate(15px, 0);
+      }
+
+      to{
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+    }
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 80%;
+    padding: 20px 0;
+  }
+
+  &.active {
+    display: block;
+  } // открываем и закрываем меню бургер через добавление класса в js
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
+
+  @media (max-width: $tablet-max) {
+    flex-direction: column;
+  }
 }
 
 .nav-menu-item {
@@ -10,6 +55,16 @@
 
   &:hover .nav-submenu {
     display: block;
+  }
+
+  @media (max-width: $tablet-max) {
+    margin-left: 50px;
+    padding: 10px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-left: 35px;
+    padding: 7px 0;
   }
 }
 
@@ -21,6 +76,14 @@
 
   &:hover {
     color: $color-accent;
+  }
+
+  @media (max-width: $tablet-max) {
+    font-size: 24px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 20px;
   }
 }
 
@@ -48,6 +111,15 @@
       transform: translate(0, 0);
     }
   }
+
+  @media (max-width: $tablet-max) {
+    display: block;
+    position: static;
+    padding: 0 0 0 20px;
+    background: transparent;
+    box-shadow: none;
+    animation: none;
+  }
 }
 
 .nav-submenu-item {
@@ -65,6 +137,15 @@
       transform: translate(0, 0);
     }
   }
+
+  @media (max-width: $tablet-max) {
+    margin: 20px 0;
+    animation: none;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin: 15px 0;
+  }
 }
 
 .nav-submenu-link {
@@ -75,5 +156,13 @@
 
   &:hover {
     color: $color-accent;
+  }
+
+  @media (max-width: $tablet-max) {
+    font-size: 22px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 18px;
   }
 }
