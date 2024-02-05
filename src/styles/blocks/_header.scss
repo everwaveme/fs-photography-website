@@ -8,11 +8,11 @@
   background-color: $color-light;
 
   @media (max-width: $tablet-max) {
-    padding: 25px 0;
+
   }
 
   @media (max-width: $mobile-max) {
-    // padding: 20px 0;
+
   }
 }
 
@@ -24,7 +24,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+  }
 }
+
+.header-empty-box {
+  display: none;
+
+  @media (max-width: $tablet-max) {
+    display: block;
+    width: 25px;
+  }
+} //контейнер для центровки логотипа в таблетках и мобилках
 
 .header-logo {
   font-size: 30px;
@@ -33,11 +50,11 @@
   text-decoration: none;
 
   @media (max-width: $tablet-max) {
-    font-size: 26px;
+
   }
 
   @media (max-width: $mobile-max) {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 

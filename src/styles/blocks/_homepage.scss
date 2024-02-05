@@ -29,6 +29,16 @@
   font-weight: 700;
   text-align: center;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 25px;
+    font-size: 56px;
+  }
+
+  @media (max-width: $mobile-max) {
+
+    font-size: 44px;
+  }
 }
 
 .homepage-subtitle {
@@ -38,6 +48,15 @@
   line-height: 1.6em;
   text-align: center;
   color: $color-light;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 45px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
 }
 
 .homepage-btn {
@@ -57,5 +76,13 @@
   &:hover {
     background-color: $color-light;
     color: $color-dark;
+  }
+
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 12px 30px;
   }
 }

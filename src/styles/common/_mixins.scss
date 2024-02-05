@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 0 $gap-half;
   // border: 1px solid red;
+
+  @media (max-width: $tablet-max) {
+    padding: 0 20px;
+  }
 }
 
 @mixin cover() {
@@ -11,5 +15,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 90px;
+    padding: 250px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 175px 0;
+  }
 }
 
