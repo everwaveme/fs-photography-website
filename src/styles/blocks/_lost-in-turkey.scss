@@ -2,6 +2,14 @@
  @include cover();
  background-image: url("../images/lit-cover.jpg");
  background-position: bottom;
+
+ @media (max-width: $tablet-max) {
+  background-attachment: scroll;
+}
+
+@media (max-width: $mobile-max) {
+
+}
 }
 
 .lost-in-turkey-container {
