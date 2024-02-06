@@ -2,7 +2,6 @@
   max-width: $width + $gap;
   margin: 0 auto;
   padding: 0 $gap-half;
-  // border: 1px solid red;
 
   @media (max-width: $tablet-max) {
     padding: 0 20px;
@@ -10,7 +9,7 @@
 }
 
 @mixin cover() {
-  padding: 300px 0; // было 250px до фиксации шапки
+  padding: 300px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
