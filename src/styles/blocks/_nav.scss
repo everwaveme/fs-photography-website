@@ -1,7 +1,4 @@
 .nav {
-  // @media (min-width: $desktop) {
-  //   display: block !important;
-  // }
 
   @media (max-width: $tablet-max) {
     // display: none; //не используется из-за невозможности задать transition
@@ -12,7 +9,7 @@
     height: 100vh;
     padding: 30px 0;
     background: rgba($color-light, .98);
-    overflow: auto;
+    overflow: auto; //позволяет скроллить мобильное меню
     transition: right .4s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 
