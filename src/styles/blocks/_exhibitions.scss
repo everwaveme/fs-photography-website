@@ -5,19 +5,11 @@
   @media (max-width: $tablet-max) {
     background-attachment: scroll;
   }
-
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .exhibitions-container {
   @include container();
   margin-bottom: 100px;
-
-  @media (max-width: $tablet-max) {
-
-  }
 
   @media (max-width: $mobile-max) {
     margin-bottom: 60px;
@@ -45,7 +37,6 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  // text-align: center;
 }
 
 .exhibitions-link {
@@ -53,7 +44,7 @@
   text-decoration: none;
   transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
-    &:hover {
-      color: rgb($color-accent, .7);
-    }
+  &:hover {
+    color: rgb($color-accent, .7);
+  }
 }

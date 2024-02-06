@@ -5,19 +5,11 @@
   @media (max-width: $tablet-max) {
     background-attachment: scroll;
   }
-
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .press-container {
   @include container();
   margin-bottom: 100px;
-
-  @media (max-width: $tablet-max) {
-
-  }
 
   @media (max-width: $mobile-max) {
     margin-bottom: 60px;

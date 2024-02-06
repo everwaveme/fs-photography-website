@@ -5,10 +5,6 @@
   @media (max-width: $tablet-max) {
     background-attachment: scroll;
   }
-
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .better-days-container {
@@ -40,11 +36,6 @@
 
   @media (max-width: $tablet-max) {
     margin-top: 25px;
-
-  }
-
-  @media (max-width: $mobile-max) {
-
   }
 }
 
@@ -70,10 +61,6 @@
   @media (max-width: $tablet-max) {
     flex-basis: 50%;
     padding: 20px;
-  }
-
-  @media (max-width: $mobile-max) {
-
   }
 }
 

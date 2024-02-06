@@ -6,14 +6,6 @@
   width: 100%;
   padding: 30px 0;
   background-color: $color-light;
-
-  @media (max-width: $tablet-max) {
-
-  }
-
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .header-container {
@@ -24,14 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  @media (max-width: $tablet-max) {
-
-  }
-
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .header-empty-box {
@@ -48,10 +32,6 @@
   font-weight: 700;
   color: $color-dark;
   text-decoration: none;
-
-  @media (max-width: $tablet-max) {
-
-  }
 
   @media (max-width: $mobile-max) {
     font-size: 26px;
@@ -71,9 +51,5 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-  }
-
-  @media (max-width: $mobile-max) {
-
   }
 }
