@@ -16,11 +16,12 @@
   background-attachment: fixed;
 
   @media (max-width: $tablet-max) {
-    margin-top: 90px;
+    margin-top: 85px;
     padding: 250px 0;
   }
 
   @media (max-width: $mobile-max) {
+    margin-top: 80px;
     padding: 175px 0;
   }
 }
