@@ -30,6 +30,11 @@
   text-align: center;
   color: $color-light;
 
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+
   @media (max-width: $tablet-max) {
     margin-bottom: 25px;
     font-size: 56px;
@@ -48,6 +53,11 @@
   line-height: 1.6em;
   text-align: center;
   color: $color-light;
+
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
 
   @media (max-width: $tablet-max) {
     margin-bottom: 45px;
@@ -72,6 +82,11 @@
   border-radius: 3px;
   cursor: pointer;
   transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
 
   &:hover {
     background-color: $color-light;

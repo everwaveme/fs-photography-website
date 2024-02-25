@@ -22,6 +22,11 @@
   font-weight: 600;
   text-align: center;
 
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+
   @media (max-width: $tablet-max) {
     margin: 60px 0;
     font-size: 26px;
@@ -38,6 +43,11 @@
   font-weight: 300;
   line-height: 30px;
   text-align: center;
+
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
 }
 
 .press-link {
@@ -45,7 +55,12 @@
   text-decoration: none;
   transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
-    &:hover {
-      color: rgb($color-accent, .7);
-    }
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+
+  &:hover {
+    color: rgb($color-accent, .7);
+  }
 }

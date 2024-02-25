@@ -38,6 +38,11 @@
   text-decoration: none;
   transition: all .3s 0s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+
   &:hover {
     opacity: .8;
   }

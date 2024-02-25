@@ -18,6 +18,11 @@
   font-weight: 600;
   text-align: center;
 
+  &::selection {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+
   @media (max-width: $tablet-max) {
     margin-top: 60px;
     font-size: 26px;
@@ -57,6 +62,10 @@
   margin: 0 auto;
   max-height: 400px;
   object-fit: contain;
+
+  &::selection {
+    background-color: $color-dark;
+  }
 
   @media (max-width: $tablet-max) {
     max-height: 300px;
