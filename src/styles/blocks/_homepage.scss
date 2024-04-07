@@ -25,7 +25,7 @@
 
 .homepage-title {
   margin-bottom: 30px;
-  font-size: 68px;
+  font-size: 58px;
   font-weight: 700;
   text-align: center;
   color: $color-light;
@@ -37,12 +37,12 @@
 
   @media (max-width: $tablet-max) {
     margin-bottom: 25px;
-    font-size: 56px;
+    font-size: 48px;
   }
 
   @media (max-width: $mobile-max) {
 
-    font-size: 44px;
+    font-size: 42px;
   }
 }
 
